@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #7aa2ff;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
