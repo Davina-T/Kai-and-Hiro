@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -8,8 +12,13 @@ body {
 }
 
 .navbar {
-    background-color: #7aa2ff;
+    overflow: hidden;
     font-size: 18px;
+    transition: 0.8s ease;
+}
+
+.navbar.colour {
+    background-color: #7aa2ff;
 }
 
 .navbar-toggler-icon {
@@ -20,18 +29,25 @@ body {
     background-color: white;
 }
 
-.nav-link {
-    color: black;
-    margin-left: 10px;
-    transition: .4s ease-out;
+.navbar-collapse li {
+    padding: 12px 0;
+    text-align: right;
 }
 
-.nav-link:hover {
+.navbar a {
+    color: black;
+    margin: 0 10px;
+}
+
+.navbar .nav-option:hover {
+    padding-bottom: 10px;
     color: #BADDC9;
     border-bottom: 5px solid #E5C7A0;
+    transition: .4s ease-out;
+    text-decoration: none;
 }
 
-a.nav-link.active {
+.navbar a.active {
     color: white;
 }
 
@@ -60,6 +76,11 @@ a.nav-link.active {
     padding: 80px 0;
 }
 
+.padding-products {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
 .padding img {
     width: 100%;
 }
@@ -83,6 +104,15 @@ a.nav-link.active {
 
 .product-title {
     font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.cardrow2 {
+    margin: 40px 0;
 }
 
 #fixed {
@@ -103,24 +133,25 @@ a.nav-link.active {
     width: 100%;
     background: rgba(122, 162, 255, 0.5);
     z-index: 999;
+    transition: .8s ease;
 }
 
 #fixed:hover:before {
     background: none;
-    transition: .8s ease;
 }
 
 .reviews {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    padding: 0 100px;
 }
 
 .reviews-title {
     font-weight: bold;
 }
 
-.reviews-text {
+/* .reviews-text {
     padding: 0 250px;
 }
 
@@ -128,7 +159,7 @@ a.nav-link.active {
     padding: 0 250px;
     font-size: 16px;
     font-style: italic;
-}
+} */
 
 .shop-title {
     font-weight: bold;
@@ -140,13 +171,11 @@ a.nav-link.active {
 
 .shop-icon {
     color: #7aa2ff;
+    transition: .8s ease;
 }
 
 .shop-options i:hover {
     color: #F29999;
-    transition: .8s ease-out;
-    border: 3px solid #F29999;
-    border-radius: 40px;
 } 
 
 footer {
@@ -161,7 +190,7 @@ footer {
     font-weight: bold;
 }
 
-.contact-icon {
+.contact-us i {
     color: black;
     margin: 0 30px;
 }

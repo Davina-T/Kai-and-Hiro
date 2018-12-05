@@ -25,10 +25,10 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-main">
                 <ul class="nav navbar-nav">
-                    <li><a class="nav-link active" href="#">Home</a></li>
-                    <li><a class="nav-link" href="#">About</a></li>
-                    <li><a class="nav-link" href="#">Products</a></li>
-                    <li><a class="nav-link" href="#">Contact Us</a></li>
+                    <li><a class="nav-option active" href="#home">Home</a></li>
+                    <li><a class="nav-option" href="#about">About</a></li>
+                    <li><a class="nav-option" href="#products">Products</a></li>
+                    <li><a class="nav-option" href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,18 +38,18 @@
             <div class="landing-text">
                 <h1 class="home-title">KAI&HIRO</h1>
                 <h3>Learn more about our products</h3>
-                <a href="#" class="btn btn-default btn-light btn-lg">Explore Now</a>
+                <a href="#products" class="btn btn-default btn-light btn-lg">Explore Now</a>
             </div>
         </div>
         
         <!-- About -->
-        <div class="padding">
+        <div class="padding"  id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6 col-sm-12">
                         <img src="img/kaiandhiro1.jpg">
                     </div>
-                    <div class="col-sm-6 about-us">
+                    <div class="col-md-6 col-sm-12 about-us">
                         <h2 class="about-title">About Us</h2>
                         <br>
                         <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula massa quis interdum hendrerit. Pellentesque sit amet aliquam mauris. Vivamus sed magna sed metus euismod condimentum. Etiam eu venenatis lorem, vel hendrerit nulla. Pellentesque dictum suscipit eros. </p>
@@ -72,7 +72,7 @@
                         <h5>Our Design & Quality</h5>
                         <p class="lead product-description">Each product is carefully crafted with love and care. Our quality and designs will keep your baby delighted with every product.</p>
                     </div>                     
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <i class="fas fa-dollar-sign fa-3x"></i>
                         <h5>Easy Payment</h5>
                         <p class="lead product-description">We accept multiple payment options; choose the option that works best for you.</p>
@@ -82,11 +82,63 @@
         </div>
 
         <!-- Product gallery -->
-        <div class="padding">
+        <div class="padding-products" id="products">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm-12">
                         <h1 class="product-title">Our Products</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/card1.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">One Piece Long Crib Rail Cover</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">    
+                        <div class="card">
+                            <img class="card-img-top" src="img/card2.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">Classic & Fashionable Diaper Nappy Changing Bag (Black & White Stripes)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">    
+                        <div class="card">
+                            <img class="card-img-top" src="img/card3.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">Classic & Fashionable Diaper Nappy Changing Bag (Grey Wavy)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cardrow2">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/card4.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">Large & Practical Diaper Nappy Changing Bag (Dark Grey)</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">    
+                        <div class="card">
+                            <img class="card-img-top" src="img/card5.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">Large & Practical Diaper Nappy Changing Bag (Blue)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">    
+                        <div class="card">
+                            <img class="card-img-top" src="img/card6.jpg" alt="Reversible Long Crib Rail Cover">
+                            <div class="card-body">
+                                <p class="card-text">Large & Practical Diaper Nappy Changing Bag (Black)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +146,7 @@
 
         <!-- Reviews -->
         <div id="fixed">
-            <div class="reviews">
+            <div class="reviews" id="review">
                 <h1 class="reviews-title">What Parents Think About Kai&Hiro</h1>
                 <p class="lead reviews-text">Works perfectly. I have a thicker curved rail, and this fits and contours like a glove. It is soft so the print of it is also fun for my little one, but ties easily to the crib and doesn't move. My son has pulled and pulled and it hasn't moved which is important to me. The color is simple and pretty, reversible feature can go with any color crib. Highly recommend.</p>
                 <p class="lead reviews-text">- Zhenyu Li</p>
@@ -115,12 +167,12 @@
                     <div class="col-sm-6">
                         <h2>Available on Amazon...</h2>
                         <br>
-                        <a href="#"><i class="shop-icon fab fa-amazon fa-5x"></i></a>
+                        <a href="https://www.amazon.com/sp?_encoding=UTF8&asin=&isAmazonFulfilled=1&isCBA=&marketplaceID=ATVPDKIKX0DER&orderID=&seller=AMYQXKCJNKM8O&tab=&vasStoreID="><i class="shop-icon fab fa-amazon fa-5x"></i></a>
                     </div>
                     <div class="col-sm-6">
                         <h2>or Facebook</h2>
                         <br>
-                        <a href="#"><i class="shop-icon fab fa-facebook fa-5x"></i></a>
+                        <a href="https://www.facebook.com/pg/KAI-HIRO-193038068139882/shop/?ref=page_internal"><i class="shop-icon fab fa-facebook fa-5x"></i></a>
                     </div>
                 </div>
             </div>
@@ -128,17 +180,18 @@
 
         <!-- Footer/Contact -->
         <footer>
-            <div class="contact-us">
+            <div class="contact-us" id="contact">
                 <h3 class="contact-title">Contact Us</h3>
                 <br>
-                <a href="#"><i class="contact-icon fab fa-facebook-f fa-2x"></i></a>
-                <a href="#"><i class="contact-icon fab fa-facebook-messenger fa-2x"></i></a>
-                <a href="#"><i class="contact-icon far fa-envelope fa-2x"></i></a>
-                <a href="#"><i class="contact-icon fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/KAI-HIRO-193038068139882/"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="m.me/193038068139882"><i class="fab fa-facebook-messenger fa-2x"></i></a>
+                <a href="sales@kaihiro.com"><i class="far fa-envelope fa-2x"></i></a>
+                <a href="https://www.instagram.com/kai.hiro/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
         </footer>
 
-    </body>
+        <script src="main.js"></script>
 
+    </body>
 
 </html>
