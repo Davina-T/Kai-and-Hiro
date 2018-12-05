@@ -201,3 +201,12 @@ footer {
     border-bottom: 5px solid #E5C7A0;
     transition: .4s ease-out;
 }
+
+.copyright {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #485c96;
+    color: black;
+}
