@@ -115,6 +115,18 @@ body {
     margin: 40px 0;
 }
 
+.card figure {
+    background: #7aa2ff;
+}
+
+.cardimg {
+    transition: .4s ease-out;
+}
+
+.cardimg:hover {
+    opacity: .5;
+}
+
 #fixed {
     background: url(img/reviews-background.jpg) no-repeat center center fixed;
     display: table;
@@ -151,10 +163,11 @@ body {
     font-weight: bold;
 }
 
-/* .reviews-text {
-    padding: 0 250px;
+.reviews-text {
+    font-size: 20px;
 }
 
+ /*
 .reviews-text-small {
     padding: 0 250px;
     font-size: 16px;
@@ -210,4 +223,24 @@ footer {
     justify-content: center;
     background-color: #485c96;
     color: black;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+    .reviews {
+        padding: 0 50px;
+    }
+    
+    .reviews-text{
+        font-size: 14px;
+    }
+
+    .reviews-title {
+        font-size: 20px;
+    }
+
+    .reviews-text-small {
+        font-size: 12px;
+    }
 }
