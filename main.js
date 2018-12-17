@@ -17,3 +17,10 @@ $(document).ready(function() {
     })
 })
 
+// Scroll to top
+
+function scrollToTop() {
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
+}
