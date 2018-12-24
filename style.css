@@ -9,6 +9,7 @@ html, body {
 
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
+    position: relative;
 }
 
 .navbar {
@@ -39,7 +40,11 @@ body {
     margin: 0 10px;
 }
 
-.navbar .nav-option:hover {
+.navbar-nav {
+    max-height: 50px;
+}
+
+.navbar .nav-link:hover {
     padding-bottom: 10px;
     color: #BADDC9;
     border-bottom: 5px solid #E5C7A0;
