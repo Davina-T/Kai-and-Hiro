@@ -260,4 +260,19 @@ footer {
     .reviews-text-small {
         font-size: 12px;
     }
+
+    #home {
+        background: url(img/home-background.jpg) no-repeat center center fixed;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+
+    #fixed {
+        background: url(img/reviews-background.jpg) no-repeat center center fixed;
+        height: 60%;
+        width: 100%;
+        background-size: cover;
+    }
+
 }
