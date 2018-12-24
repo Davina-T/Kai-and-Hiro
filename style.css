@@ -38,18 +38,14 @@ body {
 .navbar a {
     color: black;
     margin: 0 10px;
+    text-decoration: none;
 }
 
-.navbar-nav {
-    max-height: 50px;
-}
-
-.navbar .nav-link:hover {
-    padding-bottom: 10px;
+.navbar a:hover {
     color: #BADDC9;
     border-bottom: 5px solid #E5C7A0;
     transition: .4s ease-out;
-    text-decoration: none;
+    max-height: 43px;
 }
 
 .navbar a.active {
@@ -262,15 +258,10 @@ footer {
     }
 
     #home {
-        background: url(img/home-background.jpg) no-repeat center center fixed;
-        height: 100%;
-        width: 100%;
+        background: url(img/home-background.jpg);
     }
 
     #fixed {
-        background: url(img/reviews-background.jpg) no-repeat center center fixed;
-        height: 60%;
-        width: 100%;
+        background: none;
     }
-
 }
