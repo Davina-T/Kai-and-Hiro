@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar .nav-link:hover {
     color: #BADDC9;
     border-bottom: 5px solid #E5C7A0;
     transition: .4s ease-out;
