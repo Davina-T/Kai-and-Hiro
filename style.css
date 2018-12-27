@@ -240,7 +240,25 @@ footer {
 
 /* Responsive */
 
-@media screen and (max-width: 500px) {
+/* ----------- Mobile  ----------- */
+
+@media screen and (max-width: 576px) {
+    #home {
+        background: rgb(247, 210, 255);
+    }
+
+    #fixed {
+        background: #7aa2ff;
+    }
+    
+    #fixed:before {
+        background: none;
+    }
+
+    .home-title {
+        font-size: 60px;
+    }
+
     .reviews {
         padding: 0 50px;
     }
@@ -256,12 +274,74 @@ footer {
     .reviews-text-small {
         font-size: 12px;
     }
+}
 
+/* ----------- iPad  ----------- */
+
+@media screen and (max-width: 768px) {
     #home {
-        background: #E2BEEA;
+        background: rgb(247, 210, 255);
+    }
+
+    #fixed {
+        background: #7aa2ff;
+    }
+    
+    #fixed:before {
+        background: none;
+    }
+
+    .aboutus-image {
+        padding: 40px 35px;
+    }
+
+    .about-us {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    .about-title {
+        text-align: center;
+    }
+}
+
+/* ----------- Desktops ----------- */
+
+@media screen and (max-width: 992px) {
+    #home {
+        background: rgb(247, 210, 255);
     }
 
     #fixed {
         background: none;
+    }
+
+    .aboutus-image {
+        padding: 40px 35px;
+    }
+
+    .about-us {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    .about-title {
+        text-align: center;
+    }
+
+    #fixed {
+        background: #7aa2ff;
+    }
+    
+    #fixed:before {
+        background: none;
+    }
+}
+
+/* ----------- Large Desktops  ----------- */
+
+@media screen and (max-width: 1200px) {
+    .aboutus-image {
+        padding-top: 80px;
     }
 }
